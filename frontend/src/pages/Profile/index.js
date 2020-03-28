@@ -41,6 +41,10 @@ export default function Profile() {
     localStorage.clear();
     history.push('/');
   }
+
+  if (!ongId) {
+    history.push('/');
+  }
   return (
 
     <div className="profile-container">

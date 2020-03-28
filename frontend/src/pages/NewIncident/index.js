@@ -32,6 +32,9 @@ export default function NewIncident() {
     }
 
   }
+  if (!ongId) {
+    history.push('/');
+  }
 
 
   return (
